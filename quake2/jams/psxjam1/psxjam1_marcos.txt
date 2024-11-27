@@ -1,0 +1,90 @@
+===========================================================================
+Title                   : Mancubus RC3 (v1.1)
+Filename                : psxjam1_marcos.bsp
+Release date            : November 2024
+Author                  : Marcos Rigoli
+Description             : Map-Center PSX Jam for Quake II
+===========================================================================
+
+* What is included *
+
+New levels              : Yes
+Sounds                  : Yes
+Music                   : No
+Graphics                : No
+Other files required    : Quake II PSX (https://www.moddb.com/mods/quake-ii-psx)
+Map Source		: Yes
+
+* Play Information *
+
+Single Player           : Designed for
+Cooperative 2-4 Player  : Should be playable
+Deathmatch 2-4 Player   : No
+Difficulty Settings     : Yes - Easy and Normal are equal. The game already makes a difference.
+
+Easy/Normal secret count  : 3
+Easy/Normal monster count : 64
+Hard+ secret count        : 4
+Hard+ monster count       : 237
+
+* Construction *
+
+Base                    : New from scratch.
+Build Time              : Made within Jam time (2 weeks)
+Editor(s) used          : Trenchbroom, ericw-tools
+Known Bugs              : Unknown (yet..)
+Tested With             : Kex engine 4.1
+
+* Changelog *
+
+v1.1 RC4 (06-11-2024):
+- Added more visual sugar to the first area to make the looks a bit less bland.
+- Added four Flyers that spawn when you get to the top level of the hangar in all difficulties. It felt too quiet between taking down all mobs from below and then climbing with the whole area in silence.
+- Tweaked the Quad secret below the stairs to make it a tiny bit more visible.
+- Made inner brush from exit door on the shotgun area bigger so it opens when you press the button and removed the "Door opened." message since it wasn't needed any more and it was confusing.
+- Tweaked a bit the position of the soldiers in the first floor on the starting area. In some cases they were oblivious to combat that was taking place near them (tweaked the orientation and added an aggro trigger when you are near them).
+- Added two flyby cameras. To use them make sure you have "notarget" enabled and run "target cam-01" or "target cam-02" in the console.
+
+v1.0 RC3 (02-11-2024):
+- Updated pit area to make it taller.
+- Updated some textures.
+- Added a few grenades.
+- Fixed some path corners on the ship that takes off on the blue key area (now it works consistently).
+
+v0.5 RC2 (01-11-2024):
+- Added compass navigation. Not sure if Bots know what to do, but at least the compass knows the way.
+- Added a blue light to highlight the big elevator to the blue key.
+
+v0.4 RC1 (29-10-2024):
+- Swapped the ugly ladders for lifts on the blue key area.
+- Added a few more mobs in Hard difficulty.
+- Added a safe jump back to the ground on the blue key area secret.
+- Added a secret for Hard difficulty only that's not "actually" a secret (just to scratch an itch, you can just ignore it).
+- Added two custom sounds related to the not-secret (please, don't spoil).
+
+v0.3 (28-10-2024):
+- Reworked a lift that was preventing some mutants to reach the player.
+
+v0.2 (27-10-2024):
+- Updated brushwork / styles.
+- Added / relocated some monsters.
+- Added boss to blue key area.
+- Added Daedalus reinforcement spawn on blue area at mid height.
+- Added yellow armor at the end of the "pit" (Hyperblaster).
+
+* Copyright / Permissions *
+
+Authors (MAY) use the contents of this file as a base for
+modification or reuse, provided you let me know so I can check it out.
+Permissions have been obtained from original authors for any of their
+resources modified or included in this file.
+
+You MAY distribute this file, provided you include this text file, with
+no modifications.  You may distribute this file in any electronic
+format (BBS, Diskette, CD, etc) as long as you include this file 
+intact.  I have received permission from the original authors of any
+modified or included content in this file to allow further distribution.
+
+* Maps-Center Discord (where the Jam took place) *
+
+https://discord.gg/nM9KnzN8rz
